@@ -1,0 +1,30 @@
+.nav {
+  min-height: 30px;
+  width: 100%;
+  background-color: var(--color4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu li {
+  list-style-type: none;
+  letter-spacing: 3px;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--color2);
+  margin-right: 30px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.menu li:hover {
+  color: #fff;
+  background-color: var(--color2);
+}
