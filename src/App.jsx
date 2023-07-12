@@ -1,10 +1,17 @@
-import './App.css'
+import { Banner } from './components/Banner/Banner'
+import { Departments } from './components/Departments/Departments'
+import { Head } from './components/Head/Head'
+import { NavMenu } from './components/NavMenu/NavMenu'
 
 function App() {
+
   return (
-    <>
-      <h1>Hello World!</h1>
-    </>
+    <div className='app'>
+      <Head />
+      <NavMenu />
+      <Banner/>
+      <Departments />
+    </div>
   )
 }
 
