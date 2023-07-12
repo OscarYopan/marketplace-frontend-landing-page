@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head-container {
+  background-color: var(--color2);
+  width: 100%;
+  min-height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.logo a {
+  font-size: 40px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-box input {
+  height: 40px;
+  min-width: 450px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.search-box button {
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.search-box button i {
+  background-color: #fff;
+  font-size: 18px;
+  color: var(--color2);
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  /* padding: 5px; */
+}
+
+.btn:hover {
+  color: var(--color4);
+}
+
+
+.btn i {
+  margin: 0 10px;
+  color: #fff;
+  background-color: var(--color4);
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+.btn i:hover {
+  color: var(--color4);
+  background-color: var(--color1);
+}
+
+.account-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
