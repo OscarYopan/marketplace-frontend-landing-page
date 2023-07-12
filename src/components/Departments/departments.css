@@ -1,0 +1,68 @@
+.departments {
+  background-color: var(--color2);
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.departments h2 {
+  color: #fff;
+  text-align: center;
+  margin: 10px 0;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.department {
+  height: 200px;
+  min-width: 180px;
+  background-color: var(--color3);
+  margin: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.department:hover {
+  transform: scale(1.1);
+}
+
+.department:active {
+  opacity: 50%;
+}
+
+#games-dep {
+  background-image: url('../../assets/images/dep-games.png');
+  background-color: var(--color1);
+}
+
+#eletronic-dep {
+  background-image: url('../../assets/images/dep-eletronic.png');
+  background-color: var(--color4);
+}
+
+#computer-dep {
+  background-image: url('../../assets/images/dep=computer.png');
+  background-color: var(--option10);
+}
+
+#toys-dep {
+  background-image: url('../../assets/images/dep-toys.png');
+  background-color: var(--color5);
+}
+
+#home-dep {
+  background-image: url('../../assets/images/dep-home.png');
+  background-color: var(--murrey);
+}
+
+#pet-dep {
+  background-image: url('../../assets/images/dep-pet.png');
+  background-color: var(--vivid-sky-blue);
+}
