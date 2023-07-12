@@ -1,0 +1,38 @@
+.banner-container {
+  background: url('../../assets/images/banner_03.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #222;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.banner-container .arrow i {
+  position: absolute;
+  background-color: #ffffff60;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  color: var(--color1);
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.banner-container .arrow i.fa-arrow-left {
+  left: 20px;
+}
+
+.banner-container .arrow i.fa-arrow-right {
+  right: 20px;
+}
+
+.banner-container .arrow i:hover {
+  background-color: #fff;
+}
