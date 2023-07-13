@@ -37,7 +37,7 @@ export const Head = () => {
 
         <div className='buy-cart' id='buyCart' onClick={handleClick}>
           <button className='btn'> 
-            <i className="fa-solid fa-cart-shopping"></i>
+            <i className="fa-solid fa-basket-shopping"></i>
           </button>
         </div>
         

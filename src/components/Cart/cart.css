@@ -11,12 +11,6 @@
   border-radius: 5px;
 }
 
-.cart-container .close {
-  z-index: -100;
-  opacity: 0;
-  display: none;
-}
-
 .cart-container li {
   list-style-type: none;
   cursor: pointer;
