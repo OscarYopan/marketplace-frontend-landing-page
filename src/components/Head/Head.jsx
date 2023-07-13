@@ -5,7 +5,7 @@ import { Favorites } from '../Favorites/Favorites';
 
 export const Head = () => {
   const [cartShow, setCartShow] = useState(false);
-  const [favtShow, setFavtShow] = useState(false);
+  const [favShow, setFavtShow] = useState(false);
 
   const handleClickShow = () => {
     setCartShow(current => !current);
@@ -49,7 +49,7 @@ export const Head = () => {
         
       </div>      
       {cartShow && <Cart />}
-      {favtShow && <Favorites />}   
+      {favShow && <Favorites />}   
     </div>
   )
 }
