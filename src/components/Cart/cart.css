@@ -24,13 +24,18 @@
   background-color: var(--color3);
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
 }
 
+.cart-container li:hover {
+  background-color: var(--color4);
+  color: var(--color3);
+}
+
 .cart-container img {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   margin-right: 10px;
   background-color: #fff;
   border-radius: 5px;
@@ -48,11 +53,11 @@
 }
 
 .cart-container a {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--color4);
   font-weight: bold;
 }
 
 .cart-container a:hover {
-  color: var(--color5);
+  color: var(--color3);
 }

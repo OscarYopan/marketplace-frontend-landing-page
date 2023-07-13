@@ -12,7 +12,7 @@ export const Cart = () => {
         </div>
         <div className="cart-information">
           <h2 className="title">Xiaomi Stick TV 4K</h2>
-          <p className="price">$ 99.90</p>
+          <p className="price">$ 59.90</p>
         </div>
       </li>
       <li>
