@@ -30,7 +30,6 @@
 
 .cart-container li:hover {
   background-color: var(--color4);
-  color: var(--color3);
 }
 
 .cart-container img {

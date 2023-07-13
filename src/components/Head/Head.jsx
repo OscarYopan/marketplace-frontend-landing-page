@@ -1,14 +1,13 @@
 import './head.css'
-
 import { Cart } from '../Cart/Cart'
+import { useState } from 'react';
 
 export const Head = () => {
+  const [isShow, setIsShow] = useState(false);
 
-
-  function openCart() {
-    console.log('Car Open');
-  }
-
+  const handleClick = () => {
+    setIsShow(current => !current);
+  };
 
   return (
     <div className="head-container">
@@ -36,14 +35,14 @@ export const Head = () => {
           </button>
         </div>
 
-        <div className='buy-cart' id='buyCart' onClick={openCart}>
+        <div className='buy-cart' id='buyCart' onClick={handleClick}>
           <button className='btn'> 
             <i className="fa-solid fa-cart-shopping"></i>
           </button>
         </div>
         
-      </div>
-      <Cart />      
+      </div>      
+      {isShow && <Cart />}    
     </div>
   )
 }
