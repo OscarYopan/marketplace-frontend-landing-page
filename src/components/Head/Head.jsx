@@ -3,10 +3,10 @@ import { Cart } from '../Cart/Cart'
 import { useState } from 'react';
 
 export const Head = () => {
-  const [isShow, setIsShow] = useState(false);
+  const [cartShow, setCartShow] = useState(false);
 
   const handleClick = () => {
-    setIsShow(current => !current);
+    setCartShow(current => !current);
   };
 
   return (
@@ -42,7 +42,7 @@ export const Head = () => {
         </div>
         
       </div>      
-      {isShow && <Cart />}    
+      {cartShow && <Cart />}    
     </div>
   )
 }
