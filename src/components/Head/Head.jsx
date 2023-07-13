@@ -35,7 +35,11 @@ export const Head = () => {
           </button>
         </div>
 
-        <div className='favorites' onClick={handleClickFav}>
+        <div 
+          className='favorites' 
+          onClick={handleClickFav}
+          onMouseOver={handleClickFav}
+        >
           <button className='btn'>
             <i className="fa-solid fa-heart"></i>
           </button>
