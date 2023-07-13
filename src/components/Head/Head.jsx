@@ -7,7 +7,6 @@ export const Head = () => {
   const [cartShow, setCartShow] = useState(false);
   const [favtShow, setFavtShow] = useState(false);
 
-
   const handleClickShow = () => {
     setCartShow(current => !current);
   };
