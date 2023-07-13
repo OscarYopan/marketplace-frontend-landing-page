@@ -5,8 +5,8 @@ import cart03 from '../../assets/images/cart_img_03.png'
 
 export const Favorites = () => {
   return (
-    <div>
-            <li>
+    <div className="cart-container">
+      <li>
         <div className="cart">
           <img src={cart01} alt="" />
         </div>
@@ -15,6 +15,7 @@ export const Favorites = () => {
           <p className="price">$ 59.90</p>
         </div>
       </li>
+
       <li>
         <div className="cart">
           <img src={cart02} alt="" />
@@ -24,6 +25,7 @@ export const Favorites = () => {
           <p className="price">$ 69.90</p>
         </div>
       </li>
+
       <li>
         <div className="cart">
           <img src={cart03} alt="" />
@@ -33,6 +35,7 @@ export const Favorites = () => {
           <p className="price">$ 399.90</p>
         </div>
       </li>
+
       <span><a href="#">See more ...</a></span>
     </div>
   )
