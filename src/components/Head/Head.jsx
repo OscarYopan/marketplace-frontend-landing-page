@@ -1,12 +1,19 @@
 import './head.css'
 import { Cart } from '../Cart/Cart'
 import { useState } from 'react';
+import { Favorites } from '../Favorites/Favorites';
 
 export const Head = () => {
   const [cartShow, setCartShow] = useState(false);
+  const [favtShow, setFavtShow] = useState(false);
 
-  const handleClick = () => {
+
+  const handleClickShow = () => {
     setCartShow(current => !current);
+  };
+
+  const handleClickFav = () => {
+    setFavtShow(current => !current);
   };
 
   return (
@@ -29,20 +36,21 @@ export const Head = () => {
           </button>
         </div>
 
-        <div className='favorites'>
+        <div className='favorites' onClick={handleClickFav}>
           <button className='btn'>
             <i className="fa-solid fa-heart"></i>
           </button>
         </div>
 
-        <div className='buy-cart' id='buyCart' onClick={handleClick}>
+        <div className='buy-cart' id='buyCart' onClick={handleClickShow}>
           <button className='btn'> 
             <i className="fa-solid fa-basket-shopping"></i>
           </button>
         </div>
         
       </div>      
-      {cartShow && <Cart />}    
+      {cartShow && <Cart />}
+      {favtShow && <Favorites />}   
     </div>
   )
 }
