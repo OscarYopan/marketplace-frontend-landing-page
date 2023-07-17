@@ -1,7 +1,7 @@
 import '../Cart/cart.css'
 import fav01 from '../../assets/images/fav_01.jpg'
 import fav02 from '../../assets/images/fav_02.jpg'
-import cart03 from '../../assets/images/cart_img_03.png'
+import fav03 from '../../assets/images/fav_03.jpg'
 
 export const Favorites = () => {
   return (
@@ -26,11 +26,11 @@ export const Favorites = () => {
       </li>
       <li>
         <div className="cart">
-          <img src={cart03} alt="" />
+          <img src={fav03} alt="" />
         </div>
         <div className="cart-information">
-          <h2 className="title">Xbox Series X</h2>
-          <p className="price">$ 399.90</p>
+          <h2 className="title">Headset Logitech Pro X League of Legends</h2>
+          <p className="price">$ 89.90</p>
         </div>
       </li>
       <span><a href="#">See more ...</a></span>
