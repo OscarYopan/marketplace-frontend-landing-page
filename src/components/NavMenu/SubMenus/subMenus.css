@@ -1,3 +1,12 @@
 .sub-menu {
   background-color: var(--color4);
+  position: absolute;
+  padding: 10px 20px;
+}
+
+.sub-menu ul li {
+  list-style-type: none;
+  font-size: 18px;
+  color: var(--color3);
+  padding: 5px 10px;
 }

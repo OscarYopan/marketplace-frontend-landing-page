@@ -12,7 +12,10 @@ export const NavMenu = () => {
   return (
     <div className="nav">
       <ul className="menu">
-        <li onMouseEnter={handleClickGames} onMouseLeave={handleClickGames}>
+        <li 
+          onMouseEnter={handleClickGames} 
+          onMouseLeave={handleClickGames}
+        >
           Games
         </li>
         <li>Computer</li>
