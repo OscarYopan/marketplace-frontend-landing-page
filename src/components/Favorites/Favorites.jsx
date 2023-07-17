@@ -1,5 +1,5 @@
 import '../Cart/cart.css'
-import cart01 from '../../assets/images/cart_img_01.png'
+import fav01 from '../../assets/images/fav_01.jpg'
 import cart02 from '../../assets/images/cart_img_02.png'
 import cart03 from '../../assets/images/cart_img_03.png'
 
@@ -8,11 +8,11 @@ export const Favorites = () => {
     <div className="cart-container">
       <li>
         <div className="cart">
-          <img src={cart01} alt="" />
+          <img src={fav01} alt="" />
         </div>
         <div className="cart-information">
-          <h2 className="title">Xiaomi Stick TV 4K</h2>
-          <p className="price">$ 59.90</p>
+          <h2 className="title">Asus GeForce RTX 4090 ROG Strix OC, 24GB</h2>
+          <p className="price">$ 1,989.90</p>
         </div>
       </li>
       <li>
@@ -20,8 +20,8 @@ export const Favorites = () => {
           <img src={cart02} alt="" />
         </div>
         <div className="cart-information">
-          <h2 className="title">Smart Watch Amazfit Bip 3</h2>
-          <p className="price">$ 69.90</p>
+          <h2 className="title">Chair DT3 Office Helora Vermelho, 11213-8</h2>
+          <p className="price">$ 359.90</p>
         </div>
       </li>
       <li>
