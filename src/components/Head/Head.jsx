@@ -7,7 +7,7 @@ export const Head = () => {
   const [cartShow, setCartShow] = useState(false);
   const [favShow, setFavtShow] = useState(false);
 
-  const handleClickShow = () => {
+  const handleClickCart = () => {
     setCartShow(current => !current);
   };
 
@@ -38,14 +38,19 @@ export const Head = () => {
         <div 
           className='favorites' 
           onClick={handleClickFav}
-          onMouseOver={handleClickFav}
+          onMouseEnter={handleClickFav}
+          onMouseLeave={handleClickFav}
         >
           <button className='btn'>
             <i className="fa-solid fa-heart"></i>
           </button>
         </div>
 
-        <div className='buy-cart' id='buyCart' onClick={handleClickShow}>
+        <div 
+          className='buy-cart' 
+          id='buyCart' 
+          onClick={handleClickCart}
+        >
           <button className='btn'> 
             <i className="fa-solid fa-basket-shopping"></i>
           </button>
