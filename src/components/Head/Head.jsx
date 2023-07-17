@@ -49,7 +49,8 @@ export const Head = () => {
         <div 
           className='buy-cart' 
           id='buyCart' 
-          onClick={handleClickCart}
+          onMouseEnter={handleClickCart}
+          onMouseLeave={handleClickCart}
         >
           <button className='btn'> 
             <i className="fa-solid fa-basket-shopping"></i>
