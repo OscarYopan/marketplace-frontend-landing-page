@@ -1,6 +1,6 @@
 import '../Cart/cart.css'
 import fav01 from '../../assets/images/fav_01.jpg'
-import cart02 from '../../assets/images/cart_img_02.png'
+import fav02 from '../../assets/images/fav_02.jpg'
 import cart03 from '../../assets/images/cart_img_03.png'
 
 export const Favorites = () => {
@@ -17,10 +17,10 @@ export const Favorites = () => {
       </li>
       <li>
         <div className="cart">
-          <img src={cart02} alt="" />
+          <img src={fav02} alt="" />
         </div>
         <div className="cart-information">
-          <h2 className="title">Chair DT3 Office Helora Vermelho, 11213-8</h2>
+          <h2 className="title">Chair DT3 Office Helora Red</h2>
           <p className="price">$ 359.90</p>
         </div>
       </li>
