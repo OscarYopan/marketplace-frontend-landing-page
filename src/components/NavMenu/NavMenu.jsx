@@ -1,3 +1,4 @@
+import { GamesMenu } from './SubMenus/GamesMenu/GamesMenu'
 import './navMenu.css'
 
 export const NavMenu = () => {

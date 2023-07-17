@@ -1,6 +1,8 @@
+import '../subMenus.css'
+
 export const GamesMenu = () => {
   return (
-    <div>
+    <div className='sub-menu'>
       <ul>
         <li>Video Game</li>
         <li>Gamepad</li>
