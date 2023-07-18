@@ -1,6 +1,6 @@
 import { GamesMenu } from './SubMenus/GamesMenu/GamesMenu'
 import { useState } from 'react';
-import { ComputerMenu } from './SubMenus/Computer/ComputerMenu';
+import { ComputerMenu } from './SubMenus/ComputerMenu/ComputerMenu';
 import './navMenu.css'
 
 export const NavMenu = () => {
