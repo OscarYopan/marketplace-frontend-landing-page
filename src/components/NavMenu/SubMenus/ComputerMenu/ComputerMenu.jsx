@@ -6,7 +6,7 @@ export const ComputerMenu = () => {
         <li>Peripherals</li>
         <li>DeskTops</li>
         <li>Notebooks</li>
-        <li>Screen</li>
+        <li>Screens</li>
       </ul>
     </div>
   )
