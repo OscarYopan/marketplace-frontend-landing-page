@@ -29,26 +29,26 @@ export const NavMenu = () => {
           onMouseLeave={handleClickGames}
         >
           Games
+          {gameShow && <GamesMenu />}
         </li>
         <li 
           onMouseEnter={handleClickComputer} 
           onMouseLeave={handleClickComputer}
         >
           Computer
+          {computerShow && <ComputerMenu />}
         </li>
         <li 
           onMouseEnter={handleClickEletronic} 
           onMouseLeave={handleClickEletronic}
         >
           Eletronic
+          {eletronicShow && <EletronicMenu />}
         </li>
         <li>Toys</li>
         <li>Home</li>
-        <li>Pet</li>
+        <li>Pet</li>            
       </ul>
-      {gameShow && <GamesMenu />}
-      {computerShow && <ComputerMenu />}
-      {eletronicShow && <EletronicMenu />}
     </div>
   )
 }
