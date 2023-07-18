@@ -4,8 +4,8 @@ export const GamesMenu = () => {
   return (
     <div className='sub-menu'>
       <ul>
-        <li>Video Game</li>
-        <li>Gamepad</li>
+        <li>Video Games</li>
+        <li>Gamepads</li>
         <li>Accessories</li>
         <li>Simulators</li>
       </ul>
