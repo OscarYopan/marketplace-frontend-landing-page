@@ -1,7 +1,6 @@
 export const EletronicMenu = () => {
   return (
-    <div>
-          <div className="sub-menu computer-menu">
+    <div className="sub-menu eletronic-menu">
       <ul>
         <li>Smartphones</li>
         <li>Smartwatchs</li>
@@ -11,7 +10,6 @@ export const EletronicMenu = () => {
         <li>Drones</li>
         <li>Robotics</li>
       </ul>
-    </div>
     </div>
   )
 }
