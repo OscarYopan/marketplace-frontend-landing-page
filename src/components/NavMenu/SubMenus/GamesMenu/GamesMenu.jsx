@@ -2,7 +2,7 @@ import '../subMenus.css'
 
 export const GamesMenu = () => {
   return (
-    <div className='sub-menu'>
+    <div className='sub-menu games-menu'>
       <ul>
         <li>Video Games</li>
         <li>Gamepads</li>
