@@ -5,6 +5,7 @@ import './navMenu.css'
 import { EletronicMenu } from './SubMenus/EletronicMenu/EletronicMenu';
 import { ToysMenu } from './SubMenus/ToysMenu/ToysMenu';
 import { HomeMenu } from './SubMenus/HomeMenu/HomeMenu';
+import { PetMenu} from './SubMenus/PetMenu/PetMenu';
 
 export const NavMenu = () => {
   const [gameShow, setGameShow] = useState(false);
@@ -12,6 +13,7 @@ export const NavMenu = () => {
   const [eletronicShow, setEletronicShow] = useState(false);
   const [toyShow, setToyShow] = useState(false);
   const [homeShow, setHomeShow] = useState(false);
+  const [petShow, setPetShow] = useState(false);
 
   const handleClickGames = () => {
     setGameShow(current => !current);
@@ -31,6 +33,10 @@ export const NavMenu = () => {
 
   const handleClickHome = () => {
     setHomeShow(current => !current);
+  };
+
+  const handleClickPet = () => {
+    setPetShow(current => !current);
   };
 
   return (
@@ -71,7 +77,13 @@ export const NavMenu = () => {
           Home
           {homeShow && <HomeMenu />}
         </li>
-        <li>Pet</li>            
+        <li 
+          onMouseEnter={handleClickPet} 
+          onMouseLeave={handleClickPet}
+        >
+          Pet
+          {petShow && <PetMenu />}
+        </li>            
       </ul>
     </div>
   )
