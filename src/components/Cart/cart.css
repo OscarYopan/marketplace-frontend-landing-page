@@ -3,7 +3,7 @@
   max-height: 500px;
   width: 350px;
   position: absolute;
-  right: 150px;
+  right: 120px;
   top: 80px;
   padding: 10px;
   z-index: 100;
@@ -53,4 +53,8 @@
 
 .cart-container a:hover {
   color: var(--color3);
+}
+
+.favorites-menu {
+  right: 180px;
 }

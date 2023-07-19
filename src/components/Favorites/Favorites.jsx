@@ -5,7 +5,7 @@ import fav03 from '../../assets/images/fav_03.jpg'
 
 export const Favorites = () => {
   return (
-    <div className="cart-container">
+    <div className="cart-container favorites-menu">
       <li>
         <div className="cart">
           <img src={fav01} alt="" />

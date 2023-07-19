@@ -43,6 +43,7 @@ export const Head = () => {
         >
           <button className='btn'>
             <i className="fa-solid fa-heart"></i>
+             {favShow && <Favorites />}
           </button>
         </div>
 
@@ -54,12 +55,12 @@ export const Head = () => {
         >
           <button className='btn'> 
             <i className="fa-solid fa-basket-shopping"></i>
+            {cartShow && <Cart />}
           </button>
         </div>
-        
-      </div>      
-      {cartShow && <Cart />}
-      {favShow && <Favorites />}   
+                
+      </div>     
+      
     </div>
   )
 }
