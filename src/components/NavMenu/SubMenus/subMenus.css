@@ -14,16 +14,5 @@
   font-weight: bold;
   color: var(--color2);
   padding: 5px 10px;
-}
-
-.games-menu {
-  left: 300px;
-}
-
-.computer-menu {
-  left: 425px;
-}
-
-.eletronic-menu {
-  left: 585px;
+  margin-right: 0;
 }
