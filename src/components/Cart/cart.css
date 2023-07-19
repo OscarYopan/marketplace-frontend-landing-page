@@ -38,17 +38,20 @@
   font-size: 16px;
   margin-bottom: 5px;
   color: #fff;
+  text-align: left;
 }
 
 .cart-container p {
   font-size: 14px;
   color: #fff;
+  text-align: left;
 }
 
 .cart-container a {
   font-size: 14px;
   color: var(--color4);
   font-weight: bold;
+  text-align: left;
 }
 
 .cart-container a:hover {
