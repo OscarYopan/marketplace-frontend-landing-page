@@ -4,12 +4,14 @@ import { useState } from 'react';
 import './navMenu.css'
 import { EletronicMenu } from './SubMenus/EletronicMenu/EletronicMenu';
 import { ToysMenu } from './SubMenus/ToysMenu/ToysMenu';
+import { HomeMenu } from './SubMenus/HomeMenu/HomeMenu';
 
 export const NavMenu = () => {
   const [gameShow, setGameShow] = useState(false);
   const [computerShow, setComputerShow] = useState(false);
   const [eletronicShow, setEletronicShow] = useState(false);
   const [toyShow, setToyShow] = useState(false);
+  const [homeShow, setHomeShow] = useState(false);
 
   const handleClickGames = () => {
     setGameShow(current => !current);
@@ -25,6 +27,10 @@ export const NavMenu = () => {
 
   const handleClickToy = () => {
     setToyShow(current => !current);
+  };
+
+  const handleClickHome = () => {
+    setHomeShow(current => !current);
   };
 
   return (
@@ -58,7 +64,13 @@ export const NavMenu = () => {
           Toys
           {toyShow && <ToysMenu />}
         </li>
-        <li>Home</li>
+        <li 
+          onMouseEnter={handleClickHome} 
+          onMouseLeave={handleClickHome}
+        >
+          Home
+          {homeShow && <HomeMenu />}
+        </li>
         <li>Pet</li>            
       </ul>
     </div>
