@@ -45,7 +45,12 @@ export const NavMenu = () => {
           Eletronic
           {eletronicShow && <EletronicMenu />}
         </li>
-        <li>Toys</li>
+        <li 
+          onMouseEnter={handleClickEletronic} 
+          onMouseLeave={handleClickEletronic}
+        >
+          Toys
+        </li>
         <li>Home</li>
         <li>Pet</li>            
       </ul>
