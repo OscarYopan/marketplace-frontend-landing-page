@@ -3,11 +3,13 @@ import { ComputerMenu } from './SubMenus/ComputerMenu/ComputerMenu';
 import { useState } from 'react';
 import './navMenu.css'
 import { EletronicMenu } from './SubMenus/EletronicMenu/EletronicMenu';
+import { ToysMenu } from './SubMenus/ToysMenu/ToysMenu';
 
 export const NavMenu = () => {
   const [gameShow, setGameShow] = useState(false);
   const [computerShow, setComputerShow] = useState(false);
   const [eletronicShow, setEletronicShow] = useState(false);
+  const [toyShow, setToyShow] = useState(false);
 
   const handleClickGames = () => {
     setGameShow(current => !current);
@@ -19,6 +21,10 @@ export const NavMenu = () => {
 
   const handleClickEletronic = () => {
     setEletronicShow(current => !current);
+  };
+
+  const handleClickToy = () => {
+    setToyShow(current => !current);
   };
 
   return (
@@ -46,10 +52,11 @@ export const NavMenu = () => {
           {eletronicShow && <EletronicMenu />}
         </li>
         <li 
-          onMouseEnter={handleClickEletronic} 
-          onMouseLeave={handleClickEletronic}
+          onMouseEnter={handleClickToy} 
+          onMouseLeave={handleClickToy}
         >
           Toys
+          {toyShow && <ToysMenu />}
         </li>
         <li>Home</li>
         <li>Pet</li>            
