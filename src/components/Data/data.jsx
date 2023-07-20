@@ -1,6 +1,4 @@
-
- 
-  export const data = () => {
+  export const Data = () => {
 
     function data() {
       fetch('https://fakestoreapi.com/products')
@@ -9,7 +7,7 @@
     }
 
     return (
-      <div></div>
+      <div onLoad={data}></div>
     )
   }
   
