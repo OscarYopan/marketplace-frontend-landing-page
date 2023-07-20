@@ -49,13 +49,13 @@
 
 .cart-container a {
   font-size: 14px;
-  color: var(--color4);
+  color: #fff;
   font-weight: bold;
   text-align: left;
 }
 
 .cart-container a:hover {
-  color: var(--color3);
+  color: var(--color4);
 }
 
 .favorites-menu {
