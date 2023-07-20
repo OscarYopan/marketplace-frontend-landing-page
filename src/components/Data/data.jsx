@@ -7,7 +7,9 @@
     }
 
     return (
-      <div onLoad={data}></div>
+      <div>{data}</div>
     )
   }
+
+  // https://fakestoreapi.com/docs
   
