@@ -5,9 +5,17 @@
 }
 
 body {
+  background-color: #222;
+  color: pink;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   width: 100vw;
+}
+
+.product-container {
+  background-color: lightblue;
+  height: 50px;
+  width: 400px;
 }
