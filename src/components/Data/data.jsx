@@ -5,13 +5,17 @@ import product03 from '../../assets/images/product_03.jpg'
 import product04 from '../../assets/images/product_04.jpg'
 import product05 from '../../assets/images/product_05.jpg'
 import product06 from '../../assets/images/product_06.jpg'
+import product07 from '../../assets/images/product_07.jpg'
+import product08 from '../../assets/images/product_08.jpg'
+import product09 from '../../assets/images/product_09.jpg'
+
 
 export const data = [
   {
     id: 0,
     title: 'GoPro - HERO11 Black Mini',
     price: '199.90',
-    description: 'Get incredible HERO11 Black video performance in a smaller, lighter, simpler design. HERO11 Black Mini’s size makes it more comfortable to wear when capturing point-of-view footage, while its new dual mounting fingers boost your body and helmet mounting options. As waterproof as ever and even more rugged, it’s ready for any adventure. Simply press the Shutter button to power up and start recording. Its new image sensor ensures you’ll get stunning video up to 5.3K with silky-smooth HyperSmooth 5.0 video stabilization.',
+    description: 'Get incredible HERO11 Black video performance in a smaller, lighter, simpler design. HERO11 Black Minis size makes it more comfortable to wear when capturing point-of-view footage, while its new dual mounting fingers boost your body and helmet mounting options. As waterproof as ever and even more rugged, its ready for any adventure. Simply press the Shutter button to power up and start recording. Its new image sensor ensures you will get stunning video up to 5.3K with silky-smooth HyperSmooth 5.0 video stabilization.',
     category: 'Eletronic',
     Image: product00,
   },
@@ -27,7 +31,7 @@ export const data = [
     id: 2,
     tite: 'Logitech - G502 HERO Wired Optical Gaming Mouse',
     price: '48.99',
-    description: 'Step up your game with this Logitech HERO Core wired gaming mouse.Customize RGB lighting to match your style and environment or sync to other Logitech G products. G502 High Performance Gaming Mouse features Logitech HERO 25K optical sensor for maximum tracking accuracy and precision. No matter your gaming style, it’s easyto tweak G502 to match your requirements, with custom profiles for your games, adjustable sensitivity from 200 up to 25,600 DPI, and tunable weight system that allows for tuning and balancing of up to five additional weights for just the right balance andfeel.',
+    description: 'Step up your game with this Logitech HERO Core wired gaming mouse.Customize RGB lighting to match your style and environment or sync to other Logitech G products. G502 High Performance Gaming Mouse features Logitech HERO 25K optical sensor for maximum tracking accuracy and precision. No matter your gaming style, its easyto tweak G502 to match your requirements, with custom profiles for your games, adjustable sensitivity from 200 up to 25,600 DPI, and tunable weight system that allows for tuning and balancing of up to five additional weights for just the right balance andfeel.',
     category: 'Computer',
     Image: product02,
   },
@@ -35,7 +39,7 @@ export const data = [
     id: 3,
     tite: 'MacBook Air 13.3" Laptop - Apple M1 chip - 8GB Memory - 256GB SSD - Space Gray',
     price: '749.99',
-    description: 'Apple’s thinnest and lightest notebook gets supercharged with the Apple M1 chip. Tackle your projects with the blazing-fast 8-core CPU. Take graphics-intensive apps and games to the next level with the 7-core GPU. And accelerate machine learning tasks with the 16-core Neural Engine. All with a silent, fanless design and the longest battery life ever — up to 18 hours.¹ MacBook Air. Still perfectly portable. Just a lot more powerful.',
+    description: 'Apples thinnest and lightest notebook gets supercharged with the Apple M1 chip. Tackle your projects with the blazing-fast 8-core CPU. Take graphics-intensive apps and games to the next level with the 7-core GPU. And accelerate machine learning tasks with the 16-core Neural Engine. All with a silent, fanless design and the longest battery life ever — up to 18 hours.¹ MacBook Air. Still perfectly portable. Just a lot more powerful.',
     category: 'Computer',
     Image: product03,
   },
@@ -43,7 +47,7 @@ export const data = [
     id: 4,
     tite: 'Samsung - Galaxy Watch5 Aluminum Smartwatch',
     price: '199.99',
-    description: 'Stay on track, on time, and in style with Galaxy Watch5¹. Ready to get a better understanding of your wellness? Galaxy Watch5 features body composition analysis², improved sensors that get an accurate read on your heart rate³ and Advanced Sleep Coaching¹ that helps you get your zzzs . Whether you’re getting your steps in, jogging at lunchtime or crushing yoga class on the weekend, strut your fashion sense with Watch bands and faces that match your awesome outfit. Stay powered up on the go throughout even your busiest day with an improved battery that gives you time to do it all. Worry less and do more and with a Sapphire Crystal Glass that’s more durable than before and a water resistant design that can take a splash⁴ or two. Go ahead, unleash the best you with Galaxy Watch5.',
+    description: 'Stay on track, on time, and in style with Galaxy Watch5¹. Ready to get a better understanding of your wellness? Galaxy Watch5 features body composition analysis², improved sensors that get an accurate read on your heart rate³ and Advanced Sleep Coaching¹ that helps you get your zzzs . Whether you are getting your steps in, jogging at lunchtime or crushing yoga class on the weekend, strut your fashion sense with Watch bands and faces that match your awesome outfit. Stay powered up on the go throughout even your busiest day with an improved battery that gives you time to do it all. Worry less and do more and with a Sapphire Crystal Glass thats more durable than before and a water resistant design that can take a splash⁴ or two. Go ahead, unleash the best you with Galaxy Watch5.',
     category: 'Eletronic',
     Image: product04,
   },
@@ -59,9 +63,33 @@ export const data = [
     id: 6,
     tite: 'Blue Microphones - Blue Yeti Professional Multi-Pattern USB Condenser Microphone',
     price: '109.99',
-    description: 'Yeti is the premium USB mic professionals trust worldwide, producing clear, powerful, broadcast-quality sound and enhanced Blue VO!CE vocal effects for gaming, streaming, podcasting, YouTube videos and more. Thanks to Yeti’s proprietary three-capsule technology and four pickup patterns, you can produce professional recordings and streams with legendary ease. Yeti also features studio controls for headphone volume, pattern selection, instant mute, and microphone gain that put you in chargeof the recording process. Set up in seconds with the included desktop stand or connect directly to a mic stand or boom arm.',
+    description: 'Yeti is the premium USB mic professionals trust worldwide, producing clear, powerful, broadcast-quality sound and enhanced Blue VO!CE vocal effects for gaming, streaming, podcasting, YouTube videos and more. Thanks to Yetis proprietary three-capsule technology and four pickup patterns, you can produce professional recordings and streams with legendary ease. Yeti also features studio controls for headphone volume, pattern selection, instant mute, and microphone gain that put you in chargeof the recording process. Set up in seconds with the included desktop stand or connect directly to a mic stand or boom arm.',
     category: 'Computer',
     Image: product06,
+  },
+  {
+    id: 7,
+    tite: 'OKAI - Neon II Electric Scooter w/ 25 Miles Operating Range & 15.5 mph Max Speed - Black',
+    price: '549.99',
+    description: 'Illuminating your ride with a customizable LED light bar, the OKAI Neon e-Scooter stands out in a safe way with an extended range of up to 25 miles, a top speed of 15.5 mph, a one-click folding design and smart app connectivity.',
+    category: 'Toys',
+    Image: product07,
+  },
+  {
+    id: 8,
+    tite: 'Napoleon - Rogue 425 Propane Gas Grill with Side Burner and Grill Cover - Black',
+    price: '874.00',
+    description: 'Its time to break free from boring backyard grilling with the Napoleon Rogue 425 Propane Gas Grill with Side Burner in black. Sear succulent seasonal treats on our iconic WAVE cast iron cooking grids. Three stainless steel burners produce precise heat where you want it, and dual level stainless steel sear plates vaporize the drippings creating intense flavor while you grill. Make marvellous meals for yourself or a crowd while you cook on 425 square inches of main grilling area. Succulent sauces and sides are a snap with the integrated range side burner. The easy to maintain black porcelainized lid and single door with integrated storage blend beautifully with your outdoor décor. Locking casters in the pedestal base mean that this grill can be moved into the thick of the action. Folding stainless steel side shelves save space, allowing the Rogue to fit anywhere in your culinary landscape. This model includes a grill cover, ensuring your investment is well protected and always ready to grill. No other grill gives you such versatility with an affordable price and high quality components.',
+    category: 'Home',
+    Image: product08,
+  },
+  {
+    id: 9,
+    tite: 'Apple - 11-Inch iPad Pro (Latest Model) with Wi-Fi - 128GB - Space Gray',
+    price: '799.00',
+    description: 'iPad Pro. With astonishing performance, superfast wireless connectivity, and next-generation Apple Pencil experience. Plus, powerful new productivity and collaboration features in iPadOS 16. iPad Pro is the ultimate iPad.',
+    category: 'Eletronic',
+    Image: product09,
   },
   {
     id: 0,
