@@ -119,6 +119,22 @@ export const data = [
   },
   {
     id: 12,
+    tite: 'HP - LaserJet Pro M283fdw Laser Printer',
+    price: '549.99',
+    description: 'An efficient, wireless MFP with fax for high-quality color and productivity. Save time with Smart Tasks in the HP Smart app, and print and scan from your phone.* Get seamless connections and strong security designed to help detect and stop attacks.Prints up to 22 ISO ppm in black and up to 22 ISO ppm in color.',
+    category: 'Computer',
+    Image: product12,
+  },
+  {
+    id: 13,
+    tite: 'LG - 27.7 Cu. Ft. French Door Smart Refrigerator',
+    price: '1,999.99',
+    description: 'If youve ever wished you had more space to get more organized, your wish has been granted. With 27.7 cubic feet, you get that extra space. You also get LG Smart ThinQ Technology, letting you control key refrigerator features from anywhere, at any time, right from your smartphone. Plus, our own Slim SpacePlus Ice System frees up even more room in the door and shelf. Aesthetics and functionality come together in perfect harmony with this French Door refrigerator.',
+    category: 'Home',
+    Image: product13,
+  },
+  {
+    id: 11,
     tite: 0,
     price: 0,
     description: 0,
