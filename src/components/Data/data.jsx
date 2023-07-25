@@ -150,6 +150,22 @@ export const data = [
     Image: product15,
   },
   {
+    id: 16,
+    tite: "Amazon - Echo Dot (5th Gen) - Deep Sea Blue",
+    price: "49.99",
+    description: "Smart speaker features a sleek design and improved audio for vibrant sound anywhere in your home. With Echo Dot, you can stay on track with help from Alexa, control compatible smart home devices and start routines with your motion.",
+    category: "Eletronic",
+    Image: product16,
+  },
+  {
+    id: 17,
+    tite: "DJI - Air 3 Fly - Gray",
+    price: "1,549.99",
+    description: "DJI Air 3 brings the next evolution of aerial and camera tech to the Air series with dual cameras, a 46-minute max flight time, omnidirectional obstacle sensing, O4 transmission, and many other intelligent features. With its advanced technology, compact and foldable design, and affordable price point, Air 3 is an unrivaled option for creators everywhere. ",
+    category: "Toys",
+    Image: product17,
+  },
+  {
     id: 11,
     tite: "0",
     price: "0",
