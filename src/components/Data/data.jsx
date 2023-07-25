@@ -8,6 +8,8 @@ import product06 from '../../assets/images/product_06.jpg'
 import product07 from '../../assets/images/product_07.jpg'
 import product08 from '../../assets/images/product_08.jpg'
 import product09 from '../../assets/images/product_09.jpg'
+import product10 from '../../assets/images/product_10.jpg'
+import product11 from '../../assets/images/product_11.jpg'
 
 
 export const data = [
@@ -92,7 +94,23 @@ export const data = [
     Image: product09,
   },
   {
-    id: 0,
+    id: 10,
+    tite: 'Samsung - 75” Class CU7000 Crystal UHD 4K UHD Smart Tizen TV',
+    price: '749.99',
+    description: 'True-to-life color. Effortless connectivity. Dazzling 4K value. Samsung Crystal UHD is worth a look (and more). Effortlessly access TV shows, movies and ambient content using the Samsung Smart Hub, or find a range of great games on the Samsung Gaming Hub.* Enjoy content even more clear than it was created as its upgraded to 4K resolution',
+    category: 'Eletronic',
+    Image: product10,
+  },
+  {
+    id: 11,
+    tite: 'NVIDIA - GeForce RTX 4090 24GB GDDR6X Graphics Card - Titanium and black',
+    price: '1,599.99',
+    description: 'The NVIDIA GeForce RTX 4090 is the ultimate GeForce GPU. It brings an enormous leap in performance, efficiency, and AI-powered graphics. Experience ultra-high performance gaming, incredibly detailed virtual worlds with ray tracing, unprecedented productivity, and new ways to create. It’s powered by the NVIDIA Ada Lovelace architecture and comes with 24 GB of G6X memory to deliver the ultimate experience for gamers and creators.',
+    category: 'Computer',
+    Image: product11,
+  },
+  {
+    id: 11,
     tite: 0,
     price: 0,
     description: 0,
