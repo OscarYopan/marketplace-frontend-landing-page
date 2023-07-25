@@ -10,6 +10,14 @@ import product08 from '../../assets/images/product_08.jpg'
 import product09 from '../../assets/images/product_09.jpg'
 import product10 from '../../assets/images/product_10.jpg'
 import product11 from '../../assets/images/product_11.jpg'
+import product12 from '../../assets/images/product_12.jpg'
+import product13 from '../../assets/images/product_13.jpg'
+import product14 from '../../assets/images/product_14.jpg'
+import product15 from '../../assets/images/product_15.jpg'
+import product16 from '../../assets/images/product_16.jpg'
+import product17 from '../../assets/images/product_17.jpg'
+import product18 from '../../assets/images/product_18.jpg'
+import product19 from '../../assets/images/product_19.jpg'
 
 
 export const data = [
@@ -108,6 +116,14 @@ export const data = [
     description: 'The NVIDIA GeForce RTX 4090 is the ultimate GeForce GPU. It brings an enormous leap in performance, efficiency, and AI-powered graphics. Experience ultra-high performance gaming, incredibly detailed virtual worlds with ray tracing, unprecedented productivity, and new ways to create. It’s powered by the NVIDIA Ada Lovelace architecture and comes with 24 GB of G6X memory to deliver the ultimate experience for gamers and creators.',
     category: 'Computer',
     Image: product11,
+  },
+  {
+    id: 12,
+    tite: 0,
+    price: 0,
+    description: 0,
+    category: 0,
+    Image: 0,
   },
   {
     id: 11,
