@@ -13,8 +13,8 @@ export const Products = () => {
             <img src={Image} alt={title} />
             <h2>{title}</h2>
             <span>$ {price}</span>
-            <p>{description}</p>
-            <p>{category}</p>
+            {/* <p>{description}</p> */}
+            {/* <p>{category}</p> */}
           </div>
           )
       })}
