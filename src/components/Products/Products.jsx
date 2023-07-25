@@ -1,16 +1,15 @@
 import './products.css'
 import { data } from "../Data/data"
-import { useState } from 'react'
 
 export const Products = () => {
-  const product = useState(data)
+  const product = data
 
   return (    
     <div className='product-container'>
       {product.map((product) => {
         const {id, title, price, description, category, Image} = product
         return (
-          <div key={id}>
+          <div key={id} className='product-anounce'>
             <img src={Image} alt={title} />
             <h2>{title}</h2>
             <span>$ {price}</span>
