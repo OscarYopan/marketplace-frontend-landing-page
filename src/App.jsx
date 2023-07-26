@@ -11,8 +11,8 @@ function App() {
       <Head />
       <NavMenu />
       <Banner/>
-      <Departments />
       <Products />
+      <Departments />
     </div>
   )
 }
