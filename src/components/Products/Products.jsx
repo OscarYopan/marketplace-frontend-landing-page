@@ -10,10 +10,13 @@ export const Products = () => {
         const {id, title, price, description, category, Image} = product
         return (
           <div key={id} className='product-anounce'>
+            <button className='anounce-fav'>
+              <i className="fa-solid fa-heart"></i>
+            </button>
             <img src={Image} alt={title} />
             <h2>{title}</h2>
             <p>$ {price}</p>
-            <button className='button'>
+            <button className='anounce-button'>
               <i className="fa-solid fa-cart-shopping"></i>
               Add to Cart
             </button>

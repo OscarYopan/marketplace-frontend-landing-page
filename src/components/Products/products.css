@@ -32,15 +32,19 @@
 .product-anounce h2 {
   font-size: 16px;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
-.product-anounce span {
-  font-size: 18px;
+.product-anounce p {
+  font-family: inherit;
+  font-size: 30px;
+  color: var(--color2);
+  margin-bottom: 20px;
 }
 
-.product-anounce button {
+.product-anounce .anounce-button {
   width: 255px;
-  background-color: var(--color2);
+  background-color: var(--color4);  
   padding: 10px 0;
   cursor: pointer;
   border: none;
@@ -57,10 +61,28 @@
   font-family: inherit;
 }
 
-.product-anounce button:hover {
+.product-anounce .anounce-button:hover {
   background-color: var(--color5);
 }
 
-.product-anounce button i {
+.product-anounce .anounce-button i {
   margin-right: 20px;
+}
+
+.anounce-fav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.anounce-fav i {
+  font-size: 20px;
+  color: #999;
+}
+
+.anounce-fav i:hover {
+  color: pink;
 }
