@@ -7,7 +7,7 @@ export const Products = () => {
   return (    
     <div className='product-container'>
       {product.map((product) => {
-        const {id, title, price, description, category, Image} = product
+        const {id, title, price, Image} = product
         return (
           <div key={id} className='product-anounce'>
             <button className='anounce-fav'>
