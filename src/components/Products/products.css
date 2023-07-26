@@ -11,7 +11,7 @@
 .product-anounce {
   background-color: #fff;
   width: 250px;
-  height: 350px;
+  height: 400px;
   margin: 10px;
   padding: 10px;
   cursor: pointer;
@@ -35,4 +35,14 @@
 
 .product-anounce span {
   font-size: 18px;
+}
+
+.product-anounce .button {
+  width: 100%;
+  background-color: var(--color2);
+  padding: 10px 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
 }

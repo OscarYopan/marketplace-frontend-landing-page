@@ -12,9 +12,11 @@ export const Products = () => {
           <div key={id} className='product-anounce'>
             <img src={Image} alt={title} />
             <h2>{title}</h2>
-            <span>$ {price}</span>
-            {/* <p>{description}</p> */}
-            {/* <p>{category}</p> */}
+            <p>$ {price}</p>
+            <button className='button'>
+              <i className="fa-solid fa-cart-shopping"></i>
+                Add to Cart
+            </button>
           </div>
           )
       })}
