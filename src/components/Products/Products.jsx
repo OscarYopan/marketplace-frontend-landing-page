@@ -15,7 +15,7 @@ export const Products = () => {
             <p>$ {price}</p>
             <button className='button'>
               <i className="fa-solid fa-cart-shopping"></i>
-                Add to Cart
+              Add to Cart
             </button>
           </div>
           )
