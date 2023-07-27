@@ -20,10 +20,12 @@
   font-size: 25px;
   color: #fff;
   margin: 10px;
+  cursor: pointer;
 }
 
 .socials i:hover {
   color: var(--color2);
+  transform: translateY(-5px);
 }
 
 h4 {
