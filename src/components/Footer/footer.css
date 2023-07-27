@@ -4,10 +4,32 @@
   height: 300px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .footer-menu ul li {
   list-style-type: none;
   color: black;
+}
+
+.socials {
+  width: 150px;
+}
+
+.socials i {
+  font-size: 25px;
+  color: #fff;
+  margin: 10px;
+}
+
+.socials i:hover {
+  color: var(--color2);
+}
+
+h4 {
+  color: #fff;
+}
+
+p {
+  font-size: 12px;
 }
