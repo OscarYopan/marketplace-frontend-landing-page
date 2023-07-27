@@ -1,0 +1,10 @@
+.footer-container {
+  background-color: var(--color4);
+  width: 100%;
+  height: 250px;
+}
+
+.footer-menu ul li {
+  list-style-type: none;
+  color: black;
+}
