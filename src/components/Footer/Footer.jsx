@@ -20,7 +20,27 @@ export const Footer = () => {
           <li>Gamepads</li>
           <li>Accessories</li>
           <li>Simulators</li>
-      </ul>
+        </ul>
+
+        <ul>
+          <li>Computer</li>
+          <li>Hardware</li>
+          <li>Peripherals</li>
+          <li>DeskTops</li>
+          <li>Notebooks</li>
+          <li>Screens</li>
+        </ul>
+
+        <ul>
+          <li>Eletronic</li>
+          <li>Smartphones</li>
+          <li>Smartwatchs</li>
+          <li>Smart Box</li>
+          <li>Tablets</li>
+          <li>Accessories</li>
+          <li>Drones</li>
+          <li>Robotics</li>
+        </ul>
       </div>
 
       <div className='socials'>
