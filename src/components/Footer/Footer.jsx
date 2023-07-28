@@ -41,6 +41,17 @@ export const Footer = () => {
           <li>Drones</li>
           <li>Robotics</li>
         </ul>
+
+        <ul>
+          <li>Toys</li>
+          <li>Action Figures</li>
+          <li>Lego</li>
+          <li>Board Games</li>
+          <li>Bicycles</li>
+          <li>Skateboards</li>
+          <li>Rollerblades</li>
+          <li>Electric Vehicles</li>
+        </ul>
       </div>
 
       <div className='socials'>
