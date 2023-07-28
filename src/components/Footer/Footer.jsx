@@ -6,9 +6,7 @@ export const Footer = () => {
 
       <div className='footer-menu'>
         <ul>
-          <li>
-            <h3>Games</h3>
-          </li>
+          <li><h3>Games</h3></li>
           <li>Video Games</li>
           <li>Gamepads</li>
           <li>Accessories</li>
@@ -16,9 +14,7 @@ export const Footer = () => {
         </ul>
 
         <ul>
-          <li>
-            <h3>Computer</h3>
-          </li>
+          <li><h3>Computer</h3></li>
           <li>Hardware</li>
           <li>Peripherals</li>
           <li>DeskTops</li>
@@ -27,9 +23,7 @@ export const Footer = () => {
         </ul>
 
         <ul>
-          <li>
-            <h3>Eletronic</h3>
-          </li>
+          <li><h3>Eletronic</h3></li>
           <li>Smartphones</li>
           <li>Smartwatchs</li>
           <li>Smart Box</li>
@@ -40,9 +34,7 @@ export const Footer = () => {
         </ul>
 
         <ul>
-          <li>
-            <h3>Toys</h3>
-          </li>
+          <li><h3>Toys</h3></li>
           <li>Action Figures</li>
           <li>Lego</li>
           <li>Board Games</li>
@@ -53,9 +45,7 @@ export const Footer = () => {
         </ul>
 
         <ul>
-          <li>
-            <h3>Home</h3>
-          </li>
+          <li><h3>Home</h3></li>
           <li>Tables</li>
           <li>Chairs</li>
           <li>Cookwares</li>
@@ -65,9 +55,7 @@ export const Footer = () => {
        </ul>
 
        <ul>
-          <li>
-            <h3>Pet</h3>
-          </li>
+          <li><h3>Pet</h3></li>
           <li>Food</li>
           <li>Beds</li>
           <li>Clothing</li>
