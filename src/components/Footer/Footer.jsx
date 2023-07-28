@@ -13,6 +13,14 @@ export const Footer = () => {
           <li>Home</li>
           <li>Pet</li>            
         </ul>
+
+        <ul>
+          <li>Games</li>
+          <li>Video Games</li>
+          <li>Gamepads</li>
+          <li>Accessories</li>
+          <li>Simulators</li>
+      </ul>
       </div>
 
       <div className='socials'>
@@ -30,15 +38,13 @@ export const Footer = () => {
         <h4>Opening hours:</h4>
         <p>08:00 to 20:00 -</p>
         <p>Monday to Saturday,</p>
-        <p>Brasilia time</p>
         <p>(Except Sunday and holidays)</p>
         <br />        
         <h4>Address:</h4>
-        <p>Rua Roronoa Zoro, 1300 -</p>
-        <p>9th floor - Center </p>       
+        <p>Rua Roronoa Zoro, 1300 -</p>     
         <p>Alabast/OP - Zip code: 13480-010</p>
         <br />      
-        <h4>Central SAC:</h4>
+        <h4>SAC:</h4>
         <p>(55) 3232-4444</p>
         <br />
         <h4>Email:</h4>
