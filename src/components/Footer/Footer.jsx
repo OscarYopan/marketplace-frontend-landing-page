@@ -4,8 +4,8 @@ export const Footer = () => {
   return (
     <div className='footer-container'>
 
-      <div className='menu'>
-        <ul className="footer-menu">
+      <div className='footer-menu'>
+        <ul>
           <li>Games</li>
           <li>Computer</li>
           <li>Eletronic</li>
@@ -51,6 +51,27 @@ export const Footer = () => {
           <li>Skateboards</li>
           <li>Rollerblades</li>
           <li>Electric Vehicles</li>
+        </ul>
+
+        <ul>
+          <li>Home</li>
+          <li>Tables</li>
+          <li>Chairs</li>
+          <li>Cookwares</li>
+          <li>Dineer Sets</li>
+          <li>kitchenware</li>
+          <li>Cutlery</li>
+       </ul>
+
+       <ul>
+          <li>Pet</li>
+          <li>Food</li>
+          <li>Beds</li>
+          <li>Clothing</li>
+          <li>Collars & Leads</li>
+          <li>Toys</li>
+          <li>Healthcare</li>
+          <li>Bowls</li>
         </ul>
       </div>
 
