@@ -4,20 +4,30 @@
   height: 300px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .footer-menu {
   display: flex;
 }
 
+.footer-menu ul {
+  margin: 10px;
+}
+
 .footer-menu ul li {
   list-style-type: none;
   color: black;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.footer-menu ul li:hover {
+  color: var(--color5);
 }
 
 .socials {
-  width: 150px;
+  width: 90px;
 }
 
 .socials i {

@@ -6,16 +6,7 @@ export const Footer = () => {
 
       <div className='footer-menu'>
         <ul>
-          <li>Games</li>
-          <li>Computer</li>
-          <li>Eletronic</li>
-          <li>Toys</li>
-          <li>Home</li>
-          <li>Pet</li>            
-        </ul>
-
-        <ul>
-          <li>Games</li>
+          <h3>Games</h3>
           <li>Video Games</li>
           <li>Gamepads</li>
           <li>Accessories</li>
@@ -23,7 +14,7 @@ export const Footer = () => {
         </ul>
 
         <ul>
-          <li>Computer</li>
+          <h3>Computer</h3>
           <li>Hardware</li>
           <li>Peripherals</li>
           <li>DeskTops</li>
@@ -32,7 +23,7 @@ export const Footer = () => {
         </ul>
 
         <ul>
-          <li>Eletronic</li>
+          <h3>Eletronic</h3>
           <li>Smartphones</li>
           <li>Smartwatchs</li>
           <li>Smart Box</li>
@@ -43,7 +34,7 @@ export const Footer = () => {
         </ul>
 
         <ul>
-          <li>Toys</li>
+          <h3>Toys</h3>
           <li>Action Figures</li>
           <li>Lego</li>
           <li>Board Games</li>
@@ -54,7 +45,7 @@ export const Footer = () => {
         </ul>
 
         <ul>
-          <li>Home</li>
+          <h3>Home</h3>
           <li>Tables</li>
           <li>Chairs</li>
           <li>Cookwares</li>
@@ -64,7 +55,7 @@ export const Footer = () => {
        </ul>
 
        <ul>
-          <li>Pet</li>
+          <h3>Pet</h3>
           <li>Food</li>
           <li>Beds</li>
           <li>Clothing</li>
@@ -77,11 +68,12 @@ export const Footer = () => {
 
       <div className='socials'>
         <i className="fa-brands fa-facebook"></i>
-        <i className="fa-brands fa-youtube"></i>
+        {/* <i className="fa-brands fa-youtube"></i> */}
         <i className="fa-brands fa-instagram"></i>
         <i className="fa-brands fa-twitter"></i>
         <i className="fa-brands fa-tiktok"></i>
         <i className="fa-brands fa-linkedin"></i>
+        <i className="fa-brands fa-whatsapp"></i>
       </div>
 
       <div className='contact'>
