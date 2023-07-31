@@ -2,10 +2,11 @@
   background-color: var(--color4);
   width: 100%;
   height: auto;
+  padding: 40px 0 10px 0;
+}
+
+.sub-foot-container-over {
   display: flex;
-  align-items: start;
-  justify-content: space-around;
-  padding: 40px 0;
 }
 
 .footer-menu {
@@ -28,8 +29,12 @@
   color: var(--color1);
 }
 
+.pay-container {
+
+}
+
 .socials {
-  width: 30px;
+
 }
 
 .socials i {
