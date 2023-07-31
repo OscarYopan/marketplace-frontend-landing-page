@@ -32,27 +32,38 @@
 }
 
 .sub-foot-container-down {
-  background-color: var(--color2);
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
 .pay-container {
+ /**/
+}
 
+.pay-container button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.pay-container button:hover {
+  transform: scale(1.2);
 }
 
 .pay-container button img {
-  height: 25px;
+  height: 30px;
 }
 
 .socials {
-
+  /**/
 }
 
 .socials i {
-  font-size: 25px;
-  color: #fff;
+  font-size: 30px;
+  color: var(--color2);
   margin: 10px;
   cursor: pointer;
 }

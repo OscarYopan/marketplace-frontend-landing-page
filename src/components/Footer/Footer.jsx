@@ -92,10 +92,10 @@ export const Footer = () => {
           </div>
 
           <div className='socials'>
-            <i className="fa-brands fa-facebook"></i>
-            <i className="fa-brands fa-instagram"></i>
-            <i className="fa-brands fa-twitter"></i>
-            <i className="fa-brands fa-whatsapp"></i>
+            <button><i className="fa-brands fa-facebook"></i></button>
+            <button><i className="fa-brands fa-instagram"></i></button>
+            <button><i className="fa-brands fa-twitter"></i></button>
+            <button><i className="fa-brands fa-whatsapp"></i></button>
           </div>
         </div>
     </div>
