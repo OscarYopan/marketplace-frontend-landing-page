@@ -7,6 +7,8 @@
 
 .sub-foot-container-over {
   display: flex;
+  align-items: initial;
+  justify-content: space-around;
 }
 
 .footer-menu {
@@ -29,8 +31,19 @@
   color: var(--color1);
 }
 
+.sub-foot-container-down {
+  background-color: var(--color2);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .pay-container {
 
+}
+
+.pay-container button img {
+  height: 25px;
 }
 
 .socials {

@@ -1,4 +1,10 @@
 import './footer.css'
+import payPix from '../../assets/images/pay_pix.png'
+import payMastercard from '../../assets/images/pay_mastercard.png'
+import payBoleto from '../../assets/images/pay_boleto.png'
+import payVisa from '../../assets/images/pay_visa.png'
+import payElo from '../../assets/images/pay_elo.png'
+
 
 export const Footer = () => {
   return (
@@ -78,13 +84,13 @@ export const Footer = () => {
 
       <div className='sub-foot-container-down'>
           <div className='pay-container'>
-            <ul>
-              <li><img src="" alt="" /></li>
-              <li><img src="" alt="" /></li>
-              <li><img src="" alt="" /></li>
-              <li><img src="" alt="" /></li>
-            </ul>
+            <button><img src={payPix} alt="Pix Link" /></button>
+            <button><img src={payMastercard} alt="Mastercard Link" /></button>
+            <button><img src={payBoleto} alt="Boleto Link" /></button>
+            <button><img src={payVisa} alt="Visa Link" /></button>
+            <button><img src={payElo} alt="Elo Link" /></button>
           </div>
+
           <div className='socials'>
             <i className="fa-brands fa-facebook"></i>
             <i className="fa-brands fa-instagram"></i>
