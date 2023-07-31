@@ -68,11 +68,8 @@ export const Footer = () => {
 
       <div className='socials'>
         <i className="fa-brands fa-facebook"></i>
-        {/* <i className="fa-brands fa-youtube"></i> */}
         <i className="fa-brands fa-instagram"></i>
         <i className="fa-brands fa-twitter"></i>
-        <i className="fa-brands fa-tiktok"></i>
-        <i className="fa-brands fa-linkedin"></i>
         <i className="fa-brands fa-whatsapp"></i>
       </div>
 
@@ -81,10 +78,6 @@ export const Footer = () => {
         <p>08:00 to 20:00 -</p>
         <p>Monday to Saturday,</p>
         <p>(Except Sunday and holidays)</p>
-        <br />        
-        <h4>Address:</h4>
-        <p>Rua Roronoa Zoro, 1300 -</p>     
-        <p>Alabast/OP - Zip code: 13480-010</p>
         <br />      
         <h4>SAC:</h4>
         <p>(55) 3232-4444</p>
