@@ -61,6 +61,13 @@
   /**/
 }
 
+.socials button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
 .socials i {
   font-size: 30px;
   color: var(--color2);
