@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: var(--color4);
+  background-color: var(--dark-cyan);
   width: 100%;
   height: auto;
   padding: 20px 0;
@@ -15,10 +15,11 @@
 
 .footer-menu {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .footer-menu ul {
-  margin: 10px 5px;
+  margin: 10px;
 }
 
 .footer-menu ul li {
@@ -30,7 +31,7 @@
 }
 
 .footer-menu ul li:hover {
-  color: var(--color1);
+  color: #fff;
 }
 
 .sub-foot-container-down {
@@ -39,7 +40,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: #fff;
-  padding: 5px 0;
+  padding: 7px 0;
 }
 
 .socials button {

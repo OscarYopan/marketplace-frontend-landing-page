@@ -1,4 +1,5 @@
 import './footer.css'
+
 import payPix from '../../assets/images/pay_pix.png'
 import payMastercard from '../../assets/images/pay_mastercard.png'
 import payBoleto from '../../assets/images/pay_boleto.png'

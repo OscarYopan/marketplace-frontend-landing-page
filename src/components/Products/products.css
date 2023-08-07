@@ -1,6 +1,6 @@
 .product-container {
   padding: 40px 0;
-  background-color: var(--color1);
+  background-color: var(--vanilla);
   width: auto;
   height: 100%;
   display: flex;
