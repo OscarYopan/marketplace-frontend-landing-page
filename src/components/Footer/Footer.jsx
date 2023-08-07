@@ -5,6 +5,9 @@ import payBoleto from '../../assets/images/pay_boleto.png'
 import payVisa from '../../assets/images/pay_visa.png'
 import payElo from '../../assets/images/pay_elo.png'
 
+import socialFacebook from '../../assets/images/social_facebook.png'
+
+
 
 export const Footer = () => {
   return (
@@ -91,11 +94,15 @@ export const Footer = () => {
             <button><img src={payElo} alt="Elo Link" /></button>
           </div>
 
-          <div className='socials'>
+          {/* <div className='socials'>
             <i className="fa-brands fa-facebook"></i>
             <i className="fa-brands fa-instagram"></i>
             <i className="fa-brands fa-twitter"></i>
             <i className="fa-brands fa-whatsapp"></i>
+          </div> */}
+
+          <div className='socials pay-container'>
+            <button><img src={socialFacebook} alt="Facebook Icon" /></button>
           </div>
         </div>
     </div>

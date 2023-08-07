@@ -34,20 +34,19 @@
 .sub-foot-container-down {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 5px 0;
 }
 
-.pay-container img {
-  background-color: transparent;
+.pay-container {
+  margin-left: 5%;
 }
 
 .pay-container button {
   background-color: #fff;
   border: none;
   cursor: pointer;
-  border: none;
-  border-radius: 50%;
-  padding: 5px;
   margin: 0 5px;
 }
 
@@ -60,12 +59,12 @@
 }
 
 .socials {
-  /**/
+  margin-right: 5%;
 }
 
 .socials i {
   font-size: 30px;
-  color: var(--color3);
+  color: var(--color2);
   margin: 10px;
   cursor: pointer;
 }
