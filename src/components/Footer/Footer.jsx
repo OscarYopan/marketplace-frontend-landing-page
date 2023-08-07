@@ -90,19 +90,19 @@ export const Footer = () => {
 
       <div className='sub-foot-container-down'>
           <div className='socials' id='pay-container'>
-            <a><img src={payPix} alt="Pix Link" /></a>
-            <a><img src={payMastercard} alt="Mastercard Link" /></a>
-            <a><img src={payBoleto} alt="Boleto Link" /></a>
-            <a><img src={payVisa} alt="Visa Link" /></a>
-            <a><img src={payElo} alt="Elo Link" /></a>
+            <a><img src={payPix} alt="Pix Link" title='Pix'/></a>
+            <a><img src={payMastercard} alt="Mastercard Link" title='Mastercard'/></a>
+            <a><img src={payBoleto} alt="Boleto Link" title='Boleto'/></a>
+            <a><img src={payVisa} alt="Visa Link" title='Visa'/></a>
+            <a><img src={payElo} alt="Elo Link" title='Elo'/></a>
           </div>
 
           <div className='socials' id='socials'>
-            <a><img src={socialFacebook} alt="Facebook Icon" /></a>
-            <a><img src={socialInstagram} alt="Facebook Icon" /></a>
-            <a><img src={socialTwitter} alt="Facebook Icon" /></a>
-            <a><img src={socialTiktok} alt="Facebook Icon" /></a>
-            <a><img src={socialWhatsapp} alt="Facebook Icon" /></a>
+            <a><img src={socialFacebook} alt="Facebook Icon" title='Facebook'/></a>
+            <a><img src={socialInstagram} alt="Facebook Icon" title='Instagram'/></a>
+            <a><img src={socialTwitter} alt="Facebook Icon" title='Twitter'/></a>
+            <a><img src={socialTiktok} alt="Facebook Icon" title='Tik Tok'/></a>
+            <a><img src={socialWhatsapp} alt="Facebook Icon" title='Whatsapp'/></a>
           </div>
         </div>
     </div>

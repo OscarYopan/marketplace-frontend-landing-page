@@ -50,7 +50,7 @@
   margin: 0 5px;
 }
 
-.socials a:hover {
+.socials a img:hover {
   transform: scale(1.2);
 }
 
