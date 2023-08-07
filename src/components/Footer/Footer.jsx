@@ -96,13 +96,6 @@ export const Footer = () => {
             <button><img src={payElo} alt="Elo Link" /></button>
           </div>
 
-          {/* <div className='socials'>
-            <i className="fa-brands fa-facebook"></i>
-            <i className="fa-brands fa-instagram"></i>
-            <i className="fa-brands fa-twitter"></i>
-            <i className="fa-brands fa-whatsapp"></i>
-          </div> */}
-
           <div className='socials' id='socials'>
             <button><img src={socialFacebook} alt="Facebook Icon" /></button>
             <button><img src={socialInstagram} alt="Facebook Icon" /></button>

@@ -2,13 +2,15 @@
   background-color: var(--color4);
   width: 100%;
   height: auto;
-  padding: 40px 0 10px 0;
+  padding: 20px 0;
 }
 
 .sub-foot-container-over {
   display: flex;
   align-items: initial;
   justify-content: space-around;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .footer-menu {
@@ -35,12 +37,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   background-color: #fff;
   padding: 5px 0;
-}
-
-#pay-container {
-  margin-left: 5%;
 }
 
 .socials button {
@@ -56,6 +55,10 @@
 
 .socials button img {
   height: 30px;
+}
+
+#pay-container {
+  margin-left: 5%;
 }
 
 #socials {
