@@ -37,14 +37,16 @@
   justify-content: space-around;
 }
 
-.pay-container {
- /**/
+.pay-container img {
+  background-color: transparent;
 }
 
 .pay-container button {
+  background-color: #fff;
+  border: none;
   cursor: pointer;
   border: none;
-  border-radius: 5px;
+  border-radius: 50%;
   padding: 5px;
   margin: 0 5px;
 }
@@ -61,16 +63,9 @@
   /**/
 }
 
-.socials button {
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  margin: 0 5px;
-}
-
 .socials i {
   font-size: 30px;
-  color: #fff;
+  color: var(--color3);
   margin: 10px;
   cursor: pointer;
 }
