@@ -43,18 +43,18 @@
   padding: 7px 0;
 }
 
-.socials button {
+.socials a {
   background-color: #fff;
   border: none;
   cursor: pointer;
   margin: 0 5px;
 }
 
-.socials button:hover {
+.socials a:hover {
   transform: scale(1.2);
 }
 
-.socials button img {
+.socials a img {
   height: 30px;
 }
 
