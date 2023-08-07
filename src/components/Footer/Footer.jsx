@@ -6,8 +6,10 @@ import payVisa from '../../assets/images/pay_visa.png'
 import payElo from '../../assets/images/pay_elo.png'
 
 import socialFacebook from '../../assets/images/social_facebook.png'
-
-
+import socialInstagram from '../../assets/images/social_instagram.png'
+import socialTwitter from '../../assets/images/social_twitter.png'
+import socialTiktok from '../../assets/images/social_tiktok.png'
+import socialWhatsapp from '../../assets/images/social_whatsapp.png'
 
 export const Footer = () => {
   return (
@@ -86,7 +88,7 @@ export const Footer = () => {
       </div>
 
       <div className='sub-foot-container-down'>
-          <div className='pay-container'>
+          <div className='socials' id='pay-container'>
             <button><img src={payPix} alt="Pix Link" /></button>
             <button><img src={payMastercard} alt="Mastercard Link" /></button>
             <button><img src={payBoleto} alt="Boleto Link" /></button>
@@ -101,8 +103,12 @@ export const Footer = () => {
             <i className="fa-brands fa-whatsapp"></i>
           </div> */}
 
-          <div className='socials pay-container'>
+          <div className='socials' id='socials'>
             <button><img src={socialFacebook} alt="Facebook Icon" /></button>
+            <button><img src={socialInstagram} alt="Facebook Icon" /></button>
+            <button><img src={socialTwitter} alt="Facebook Icon" /></button>
+            <button><img src={socialTiktok} alt="Facebook Icon" /></button>
+            <button><img src={socialWhatsapp} alt="Facebook Icon" /></button>
           </div>
         </div>
     </div>

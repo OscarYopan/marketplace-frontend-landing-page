@@ -39,38 +39,27 @@
   padding: 5px 0;
 }
 
-.pay-container {
+#pay-container {
   margin-left: 5%;
 }
 
-.pay-container button {
+.socials button {
   background-color: #fff;
   border: none;
   cursor: pointer;
   margin: 0 5px;
 }
 
-.pay-container button:hover {
+.socials button:hover {
   transform: scale(1.2);
 }
 
-.pay-container button img {
+.socials button img {
   height: 30px;
 }
 
-.socials {
+#socials {
   margin-right: 5%;
-}
-
-.socials i {
-  font-size: 30px;
-  color: var(--color2);
-  margin: 10px;
-  cursor: pointer;
-}
-
-.socials i:hover {
-  transform: scale(1.2);
 }
 
 h4 {
