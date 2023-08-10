@@ -47,6 +47,11 @@
   background-color: #fff;
   border: none;
   cursor: pointer;
+  /* margin: 0 5px; */
+}
+
+.socials img {
+  height: 30px;
   margin: 0 5px;
 }
 
@@ -54,8 +59,8 @@
   transform: scale(1.2);
 }
 
-.socials a img {
-  height: 30px;
+.socials a img:active {
+  opacity: 0.6;;
 }
 
 #pay-container {

@@ -90,11 +90,11 @@ export const Footer = () => {
 
       <div className='sub-foot-container-down'>
           <div className='socials' id='pay-container'>
-            <a><img src={payPix} alt="Pix Link" title='Pix'/></a>
-            <a><img src={payMastercard} alt="Mastercard Link" title='Mastercard'/></a>
-            <a><img src={payBoleto} alt="Boleto Link" title='Boleto'/></a>
-            <a><img src={payVisa} alt="Visa Link" title='Visa'/></a>
-            <a><img src={payElo} alt="Elo Link" title='Elo'/></a>
+            <img src={payPix} alt="Pix Link" title='Pix'/>
+            <img src={payMastercard} alt="Mastercard Link" title='Mastercard'/>
+            <img src={payBoleto} alt="Boleto Link" title='Boleto'/>
+            <img src={payVisa} alt="Visa Link" title='Visa'/>
+            <img src={payElo} alt="Elo Link" title='Elo'/>
           </div>
 
           <div className='socials' id='socials'>
