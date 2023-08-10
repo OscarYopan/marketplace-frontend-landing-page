@@ -6,7 +6,7 @@ import payBoleto from '../../assets/images/pay_boleto.png'
 import payVisa from '../../assets/images/pay_visa.png'
 import payElo from '../../assets/images/pay_elo.png'
 
-import socialFacebook from '../../assets/images/social_facebook.png'
+// import socialFacebook from '../../assets/images/social_facebook.png'
 import socialInstagram from '../../assets/images/social_instagram.png'
 import socialTwitter from '../../assets/images/social_twitter.png'
 import socialTiktok from '../../assets/images/social_tiktok.png'
@@ -98,7 +98,7 @@ export const Footer = () => {
           </div>
 
           <div className='socials' id='socials'>
-            <a><img src={socialFacebook} alt="Facebook Icon" title='Facebook'/></a>
+            {/* <a><img src={socialFacebook} alt="Facebook Icon" title='Facebook'/></a> */}
             <a><img src={socialInstagram} alt="Facebook Icon" title='Instagram'/></a>
             <a><img src={socialTwitter} alt="Facebook Icon" title='Twitter'/></a>
             <a><img src={socialTiktok} alt="Facebook Icon" title='Tik Tok'/></a>
