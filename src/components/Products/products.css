@@ -47,7 +47,7 @@
 
 .product-anounce .anounce-button {
   width: 255px;
-  background-color: var(--color4);  
+  background-color: var(--color2);  
   padding: 10px 0;
   cursor: pointer;
   border: none;
@@ -65,7 +65,11 @@
 }
 
 .product-anounce .anounce-button:hover {
-  background-color: var(--color5);
+  background-color: var(--color1);
+}
+
+.product-anounce .anounce-button:active {
+  opacity: 0.6;
 }
 
 .product-anounce .anounce-button i {
