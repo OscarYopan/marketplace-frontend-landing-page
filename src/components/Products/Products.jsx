@@ -10,7 +10,7 @@ export const Products = () => {
         const {id, title, price, Image} = product
         return (
           <div key={id} className='product-anounce'>
-            <button className='anounce-fav'>
+            <button className='anounce-fav' title='Add to Favorites'>
               <i className="fa-solid fa-heart"></i>
             </button>
             <img src={Image} alt={title} />
