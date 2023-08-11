@@ -30,7 +30,7 @@ export const Head = () => {
 
       <div className='account-container'>
         <div className='account'>
-          <button className='btn'>
+          <button className='btn' title='My Account'>
             <i className="fa-solid fa-user"></i>
           </button>
         </div>
@@ -41,7 +41,7 @@ export const Head = () => {
           onMouseEnter={handleClickFav}
           onMouseLeave={handleClickFav}
         >
-          <button className='btn'>
+          <button className='btn' title='Favorites'>
             <i className="fa-solid fa-heart"></i>
              {favShow && <Favorites />}
           </button>
@@ -53,7 +53,7 @@ export const Head = () => {
           onMouseEnter={handleClickCart}
           onMouseLeave={handleClickCart}
         >
-          <button className='btn'> 
+          <button className='btn' title='Cart'>
             <i className="fa-solid fa-basket-shopping"></i>
             {cartShow && <Cart />}
           </button>
